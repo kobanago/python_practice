@@ -1,7 +1,7 @@
 from openpyxl import load_workbook
 from openpyxl.utils import get_column_letter
 
-path = r"C:\Users\ayumi\Documents\study\python_practice\search.xlsx"
+path =  input('input path: ')
 wb = load_workbook(path)
 ws = wb["検索"]
 wsData = wb["データ"]
